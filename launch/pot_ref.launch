@@ -1,0 +1,5 @@
+<launch>
+    <node name="reflec_pot1" type="lrf_reflectance" pkg="chairbot_selfdrive" output="screen">
+        <remap from="scan_in" to="/hsrb/base_scan" />
+    </node>
+</launch>
